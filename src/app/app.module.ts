@@ -8,6 +8,7 @@ import { About } from './aboutMe/aboutC';
 import { Contact } from './contact/contactC';
 import { landingPage } from './landingPage/landingpageC';
 import { Repos } from './repos/reposC';
+import { Links } from './links/linksC';
 import { Navbar } from './navbar/navbarC';
 
 @NgModule({
@@ -17,6 +18,7 @@ import { Navbar } from './navbar/navbarC';
     Contact,
     landingPage,
     Repos,
+    Links,
     Navbar,
   ],
   imports: [
