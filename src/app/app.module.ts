@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { About } from './aboutMe/aboutC';
 import { Contact } from './contact/contactC';
 import { landingPage } from './landingPage/landingpageC';
+import { Repos } from './work/reposC';
 import { Navbar } from './navbar/navbarC';
 
 @NgModule({
@@ -15,6 +16,7 @@ import { Navbar } from './navbar/navbarC';
     About,
     Contact,
     landingPage,
+    Repos,
     Navbar,
   ],
   imports: [

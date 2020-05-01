@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { landingPage } from './landingPage/landingpageC';
 import { Contact } from './contact/contactC';
 import { About } from './aboutMe/aboutC';
+import { Repos } from './work/reposC';
 
 export const appRoutes: Routes = [
     { path: '', redirectTo: 'landing', pathMatch: 'full' },

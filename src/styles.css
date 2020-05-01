@@ -1,12 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Open Sans';
+}
 .topnav {
     overflow: hidden;
-    background-color: lightslategray;
+    height: 300px;
+    margin-top: 45%;
+    border-right: 1px solid black;
 }
 .topnav a {
     float: left;
-    color: #f2f2f2;
-    text-align: center;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -18,4 +22,46 @@
 a.active {
     background-color: white;
     color: black;
+}
+.main-container {
+    margin-left: 0;
+}
+.contentBox {
+    margin-left: 0;   
+}
+.btns {
+    border-radius: 4px;
+    background-color:white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    padding: 5px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+    
+} 
+button:focus {outline:0;}
+.btns span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btns span:after {
+    content: '\25BF';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0px;
+    transition: 0.5s;
+}
+.btns:hover span {
+    padding-right: 12px;
+}
+.btns:hover span:after {
+    opacity: 1;
+    right: 0;
 }

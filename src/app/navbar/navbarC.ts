@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
 })
 export class Navbar {
     
+    dropdownO () {
+        document.getElementById('dropdown').style.display = 'block';
+    }
+    dropdownC () {
+        document.getElementById('dropdown').style.display = 'none';
+    }
 }
