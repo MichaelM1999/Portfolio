@@ -1,8 +1,13 @@
-import { Routes} from '@angular/router';
-
+import { Routes } from '@angular/router';
+import { landingPage } from './landingPage/landingpageC';
+import { Contact } from './contact/contactC';
+import { About } from './aboutMe/aboutC';
 
 export const appRoutes: Routes = [
-  
+    { path: '', redirectTo: 'landing', pathMatch: 'full' },
+    { path: 'landing', component: landingPage },
+    { path: 'contact', component: Contact },
+    { path: 'about', component: About },
 ];
 
 
