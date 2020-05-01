@@ -1,8 +1,12 @@
 import { Component } from '@angular/core';
+import { Navbar } from './navbar/navbarC'
 
 @Component({
   selector: 'app-root',
-  template: `<router-outlet></router-outlet>`
+  template: `
+  <Navbar></Navbar>
+  <router-outlet></router-outlet>
+  `
 })
 export class AppComponent {
   title = 'Portfolio';
