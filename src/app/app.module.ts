@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 import { About } from './aboutMe/aboutC';
 import { Contact } from './contact/contactC';
 import { landingPage } from './landingPage/landingpageC';
-import { Repos } from './work/reposC';
+import { Repos } from './repos/reposC';
 import { Navbar } from './navbar/navbarC';
 
 @NgModule({
