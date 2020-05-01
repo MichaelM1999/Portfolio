@@ -6,7 +6,7 @@
     <a style="width: 100%;" [routerLink]="['/about']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">About</a>
     <br>
     <button class="btns dropbtn" type="button" name="myWorkDrop" (mouseenter)='dropdownO()' ><span>My Work</span></button>
-    <div  id="dropdown" class="dropdown" style="display: none;" (mouseleave)='dropdownC()'>
+    <div id="dropdown" class="dropdown" style="display: none;" (mouseleave)='dropdownC()'>
         <a style="width: 100%; text-align: center;" [routerLink]="['/repos']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Repos</a>
         <a style="width: 100%; text-align: center;" [routerLink]="['/links']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Links</a>
         <a style="width: 100%; text-align: center;" [routerLink]="['/resume']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Resume</a>
