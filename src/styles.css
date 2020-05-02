@@ -2,6 +2,13 @@
 body {
     font-family: 'Open Sans';
 }
+.bg {
+    background-image: url('./assets/nasa-Q1p7bh3SHj8-unsplash.jpg');
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .topnav {
     overflow: hidden;
     height: 350px;
