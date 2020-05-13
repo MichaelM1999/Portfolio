@@ -31,7 +31,7 @@ body {
     color: black;
     padding: 1px 1px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 .topnav a:hover {
     background-color: #ddd;
@@ -132,8 +132,7 @@ a.fa.fa-linkedin::before {
   color: var(--color);
   position: relative;
   display: inline-block;
-  font-size: 17px;
-  line-height: 1em;
+  font-size: 23px;
   transform: scale(1, 0.8);
   border: var(--border-width) solid transparent;
   
@@ -142,8 +141,6 @@ a.fa.fa-linkedin::before {
     display: inline-block;
     height: 40px;
     width: 100%;
-    font-family: 'Open Sans';
-    text-transform: uppercase;
     cursor: pointer;
     padding: 0.2em;
     // background: rgba(50, 50, 50, 0.5);
@@ -294,7 +291,7 @@ a.fa.fa-linkedin::before {
 
 @media (min-width: 1200px) {
   .border-animation {
-    font-size: 17px;
+    font-size: 23px;
     line-height: 1em;    
   }
 }
